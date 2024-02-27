@@ -1,100 +1,48 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Tornillo Feliz - Inicio</title>
-    <!-- Enlace al archivo CSS de Bootstrap -->
+    <title>El Tornillo Feliz</title>
+    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Estilos personalizados -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Encabezado de la página -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">El Tornillo Feliz</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <header class="bg-dark text-light py-4">
+        <div class="container">
+            <h1 class="text-center">El Tornillo Feliz</h1>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/productos.html">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="productos.html">Productos</a> <!-- Enlace a la página de productos -->
+                        <a class="nav-link" href="html/carrito.html">Carrito</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="carrito.html">Carrito</a> <!-- Enlace a la página del carrito -->
+                        <a class="nav-link" href="html/registro.html">Registro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="registro.html">Registro</a> <!-- Enlace a la página de registro -->
+                        <a class="nav-link" href="html/login.html">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login.html">Iniciar Sesión</a> <!-- Enlace a la página de inicio de sesión -->
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="perfil.html">Perfil</a> <!-- Enlace a la página de perfil -->
+                        <a class="nav-link" href="html/perfil.html">Perfil</a>
                     </li>
                 </ul>
             </div>
-        </nav>
-    </header>
-    
-    <!-- Contenido principal -->
-    <main role="main">
-        <section class="jumbotron text-center">
-            <div class="container">
-                <h1 class="jumbotron-heading">Bienvenido a El Tornillo Feliz</h1>
-                <p class="lead text-muted">Tu tienda de ferretería en línea. Descubre nuestras ofertas destacadas.</p>
-                <p>
-                    <a href="productos.html" class="btn btn-primary my-2">Ver Productos</a>
-                    <a href="#" class="btn btn-secondary my-2">Aprende Más</a>
-                </p>
-            </div>
-        </section>
-
-        <div class="album py-5 bg-light">
-            <div class="container">
-                <div class="row">
-                    <!-- Aquí puedes agregar tus productos destacados -->
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <!-- Aquí está la imagen insertada -->
-                            <img class="card-img-top" src="img/descarga.jpg" alt="Producto 1">
-                            <div class="card-body">
-                                <h3 class="card-title">Producto 1</h3>
-                                <p class="card-text"> Esta Herramienta es un producto que es muy util mayormente en una construccion</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver Detalles</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Agregar al Carrito</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Puedes añadir más productos aquí -->
-                </div>
-            </div>
         </div>
+    </nav>
 
-    </main>
-
-    <!-- Pie de página -->
-    <footer class="text-muted">
-        <div class="container">
-            <p class="float-right">
-                <a href="#">Volver arriba</a>
-            </p>
-            <p>&copy; 2024 El Tornillo Feliz - Todos los derechos reservados</p>
-        </div>
-    </footer>
-
-    <!-- Archivos de JavaScript necesarios para Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JS (Optional) -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

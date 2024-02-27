@@ -1,0 +1,52 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1ab32e; /* Color de fondo */
+    color: #15637d; /* Color de texto */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #343a40; /* Color de fondo del encabezado */
+    padding: 10px 0; /* Espaciado interno */
+    color: #fff; /* Color de texto */
+}
+
+/* Estilos para los enlaces del menú de navegación */
+nav ul li a {
+    color: #fff; /* Color de texto */
+}
+
+/* Estilos para los botones */
+.btn {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color de texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cursor al pasar el ratón */
+    text-decoration: none; /* Sin subrayado */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+/* Estilos para los botones al pasar el ratón */
+.btn:hover {
+    background-color: #0056b3; /* Nuevo color de fondo */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #343a40; /* Color de fondo del pie de página */
+    padding: 20px 0; /* Espaciado interno */
+    color: #fff; /* Color de texto */
+}
+
+/* Estilos para los enlaces del pie de página */
+footer a {
+    color: #401caa; /* Color de texto */
+}
+
+/* Estilos para los enlaces del pie de página al pasar el ratón */
+footer a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
